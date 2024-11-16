@@ -6,7 +6,7 @@ This repository contains the code used to replicate, in its entirety, the analys
 ## Data 
 I used the [2020 Cooperative Election Study](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E9N6PH) in my analysis. This dataset, which is a nationally-representative sample, originally contacted 60,000 respondents. I filter to just Black respondents (n=4,912). 
 
-Voter status is determined using the CL_2020gvm variable: respondents with a validated voting record, no matter their mode of participation, are defined as voters. There are 3,096 Black respondents who were successfully matched to the voterfile. Both matched non-voters and non-matched respondents are defined as non-voters; a deeper discussion of this definition can be found in the CES Guide. There are 1,816 respondents who were defined as non-voters.
+Voter status is determined using the CL_2020gvm variable: respondents with a validated voting record, no matter their mode of participation, are defined as voters. There are 3,096 Black respondents who were successfully matched to the voterfile. Both matched non-voters and non-matched respondents are defined as non-voters; a deeper discussion of this definition can be found in [the CES Guide](https://dataverse.harvard.edu/file.xhtml?fileId=5793681&version=4.0). There are 1,816 respondents who were defined as non-voters.
 
 All analysis is done using the CES common weight using the survey package. We use the common weight because our analysis includes questions from the pre and post-election waves of our survey.
 
